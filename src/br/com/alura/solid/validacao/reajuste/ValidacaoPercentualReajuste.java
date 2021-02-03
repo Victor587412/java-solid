@@ -1,4 +1,4 @@
-package br.com.alura.solid.service;
+package br.com.alura.solid.validacao.reajuste;
 
 import br.com.alura.solid.ValidacaoException;
 import br.com.alura.solid.interfaces.ValidacaoReajustes;

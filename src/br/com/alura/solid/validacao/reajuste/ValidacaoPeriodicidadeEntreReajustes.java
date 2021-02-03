@@ -1,4 +1,4 @@
-package br.com.alura.solid.service;
+package br.com.alura.solid.validacao.reajuste;
 
 import br.com.alura.solid.ValidacaoException;
 import br.com.alura.solid.interfaces.ValidacaoReajustes;
@@ -8,7 +8,7 @@ import java.math.BigDecimal;
 import java.time.LocalDate;
 import java.time.temporal.ChronoUnit;
 
-public class PeriodicidadeEntreReajustes implements ValidacaoReajustes {
+public class ValidacaoPeriodicidadeEntreReajustes implements ValidacaoReajustes {
 
     public void validar(Funcionario funcionario, BigDecimal aumento){
         LocalDate ultimoReajuste = funcionario.getDataUltimoReajuste();
